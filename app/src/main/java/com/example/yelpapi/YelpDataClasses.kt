@@ -2,7 +2,7 @@ package com.example.yelpapi
 
 import com.google.gson.annotations.SerializedName
 
-data class YelpSearchResult(
+data class YelpSearch(
     @SerializedName("total") val total: Int,
     @SerializedName("businesses") val resturants: List<YelpResturant>
 
@@ -19,7 +19,7 @@ data class YelpResturant(
     val location: YelpLocation
 
 ){
-    fun displayDistance(): String {
+    fun Distance(): String {
         val milesPerMeter = 0.000621371
         val distanceInMiles = "%.2f".format(distanceInMeters * milesPerMeter)
         return "$distanceInMiles miles"

@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/hmohamoud/AndroidStudioProjects/YelpAPI/app/src/main/res/layout/activity_main.xml" value="0.3787037037037037" />
+        <entry key="..\:/Users/hmohamoud/AndroidStudioProjects/YelpAPI/app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/Users/hmohamoud/AndroidStudioProjects/YelpAPI/app/src/main/res/layout/item_resturant.xml" value="0.25" />
+        <entry key="..\:/Users/hmohamoud/AndroidStudioProjects/YelpAPI/app/src/main/res/layout/resturant_items.xml" value="0.67" />
       </map>
     </option>
   </component>

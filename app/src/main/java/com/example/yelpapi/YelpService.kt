@@ -9,5 +9,5 @@ public interface YelpService {
     @GET("businesses/search")
     fun searchResturants(@Header("Authorization") authHeader: String,
                         @Query("term") searchTerm: String,
-                         @Query("location") location: String) : Call<YelpSearchResult>
+                         @Query("location") location: String) : Call<YelpSearch>
 }
